@@ -61,7 +61,7 @@ export const SuccessView = ({ timeLeft: _timeLeft }: SuccessViewProps) => (
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.6 }}
     >
-      Can&apos;t wait to celebrate our first Valentine&apos;s together! 💝
+      Let&apos;s celebrate our first Valentine&apos;s together! 💝
     </motion.p>
     {/* <CountdownTimer timeLeft={timeLeft} /> */}
     <motion.div
