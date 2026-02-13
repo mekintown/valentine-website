@@ -13,7 +13,7 @@ export default function YesPage() {
       transition={{ duration: 0.8 }}
     >
       <main className="relative flex min-h-screen flex-col items-center justify-center px-3 sm:px-4 md:px-6 py-6 sm:py-8 md:py-12">
-        <SuccessView timeLeft={timeLeft} />
+        <SuccessView />
 
         {/* Back button */}
         <motion.div

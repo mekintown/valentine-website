@@ -2,14 +2,9 @@
 
 import { motion } from "framer-motion";
 import { BOUNCING_HEARTS, HANDWRITTEN_FONT } from "../utils/constants";
-import type { TimeLeft } from "../utils/types";
 import { MemoryGallery } from "./MemoryGallery";
 
-interface SuccessViewProps {
-  timeLeft: TimeLeft;
-}
-
-export const SuccessView = ({ timeLeft: _timeLeft }: SuccessViewProps) => (
+export const SuccessView = () => (
   <div className="flex flex-col items-center gap-6 sm:gap-8 text-center pb-6 sm:pb-8 w-full">
     <motion.div
       className="flex gap-1 sm:gap-2"
