@@ -26,7 +26,7 @@ export default function YesPage() {
     }, 1000);
 
     // Trigger confetti on page load
-    const particles = createConfettiParticles(150);
+    const particles = createConfettiParticles(30);
     setConfetti(particles);
 
     setTimeout(() => {
