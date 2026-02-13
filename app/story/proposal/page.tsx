@@ -16,7 +16,7 @@ export default function ProposalStoryPage() {
   const [confetti, setConfetti] = useState<ConfettiParticle[]>([]);
 
   const handleYesClick = () => {
-    const particles = createConfettiParticles(150);
+    const particles = createConfettiParticles(30);
     setConfetti(particles);
 
     setTimeout(() => {
